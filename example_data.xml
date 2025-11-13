@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PetRegistry>
+  <Owner id="1" name="Иван Петров" phone="+7-999-123-45-67">
+    <Address street="Ленина, 10" city="Москва" postal_code="101000" />
+  </Owner>
+  <Owner id="2" name="Мария Сидорова" phone="+7-999-234-56-78">
+    <Address street="Пушкина, 25" city="Санкт-Петербург" postal_code="190000" />
+  </Owner>
+  <Pet name="Бобик" age="3">
+    <Breed name="Корги" species="Собака" />
+    <House house_type="Квартира" house_size="Средний" />
+    <OwnerID>1</OwnerID>
+  </Pet>
+  <Pet name="Мурка" age="2">
+    <Breed name="Британская" species="Кошка" />
+    <House house_type="Дом" house_size="Большой" />
+    <OwnerID>2</OwnerID>
+  </Pet>
+</PetRegistry>
+
