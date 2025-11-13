@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Распределение и сборка
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Тестовые файлы (создаются при тестах)
+test_*.json
+test_*.xml
+test_*.txt
+
+# Системные файлы
+.DS_Store
+Thumbs.db
