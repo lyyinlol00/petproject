@@ -1,0 +1,53 @@
+{
+    "owners": [
+        {
+            "owner_id": 1,
+            "name": "Иван Петров",
+            "phone": "+7-999-123-45-67",
+            "address": {
+                "street": "Ленина, 10",
+                "city": "Москва",
+                "postal_code": "101000"
+            }
+        },
+        {
+            "owner_id": 2,
+            "name": "Мария Сидорова",
+            "phone": "+7-999-234-56-78",
+            "address": {
+                "street": "Пушкина, 25",
+                "city": "Санкт-Петербург",
+                "postal_code": "190000"
+            }
+        }
+    ],
+    "pets": [
+        {
+            "name": "Бобик",
+            "age": 3,
+            "breed": {
+                "name": "Корги",
+                "species": "Собака"
+            },
+            "house": {
+                "house_type": "Квартира",
+                "house_size": "Средний"
+            },
+            "owner_id": 1
+        },
+        {
+            "name": "Мурка",
+            "age": 2,
+            "breed": {
+                "name": "Британская",
+                "species": "Кошка"
+            },
+            "house": {
+                "house_type": "Дом",
+                "house_size": "Большой"
+            },
+            "owner_id": 2
+        }
+    ]
+}
+
